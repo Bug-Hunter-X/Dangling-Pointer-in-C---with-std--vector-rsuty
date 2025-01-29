@@ -1,0 +1,1 @@
+This repository demonstrates a common C++ error: using a pointer or iterator to a vector's element after the vector's content has been modified or deallocated.  The bug.cpp file showcases the problem; bugSolution.cpp offers a corrected version.  Always ensure that pointers or iterators remain valid after vector operations.
